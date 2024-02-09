@@ -34,7 +34,7 @@ a{
   font-family: Marker Felt, fantasy;
 }
 .photo {
-  max-width: 30%; /* Adjust this value to change the image size */
+  max-width: 30%;
   height: auto;
   display: block; /* Ensures the image is a block-level element */
   margin: 20px auto; /* Adds space around the image and centers it horizontally */
@@ -89,7 +89,7 @@ a{
 }
 .contact-section input[type="submit"] {
   display: block; /* Makes the submit button a block-level element */
-  width: 50%; /* Allows you to set your own width or keep the default */
+  width: 50%; 
   margin: 0 auto; /* Auto margins on both sides center the block */
   padding: 12px 20px;
   background-color: #4d4d4d; /* Darker grey background */
@@ -106,3 +106,4 @@ a{
 .glow {
   box-shadow: 0 0 8px #cccccc; /* Subtle glow effect */
 }
+
