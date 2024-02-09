@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #4d4d4d; /* Darker grey for text for better readability */
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 18px;
+  font-family: Verdana;
+}
+ul{
+  font-size: 18px;
+  font-family: Verdana;
+}
+a{
+  color: rgb(0, 120, 94);
+}
+.p1{
+  margin-bottom: -40px;
+}
+.p2{
+  margin-bottom: -60px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.header {
+  text-align: center;
+  background: #efeeee; /* A shade of off-white from the photo */
+  font-size: 35px;
+  color:#a1aeae;
+  font-family: Marker Felt, fantasy;
+}
+.photo {
+  max-width: 30%; /* Adjust this value to change the image size */
+  height: auto;
+  display: block; /* Ensures the image is a block-level element */
+  margin: 20px auto; /* Adds space around the image and centers it horizontally */
+}
+.h2{
+  background: #c5cfcf;
+  padding: 10px;
+  font-size: 30px;
+}
+.bio {
+  padding: 20px;
+  margin: 20px 0;
+  color: black;
+}
+.interests{
+  padding: 20px;
+  margin: 20px 0;
+  color: black;
+}
+.bold{
+  font-size: 20px;
+  font-family: Verdana;
+}
+.hobbies{
+  padding: 20px;
+  margin: 20px 0;
+  color: black;
+}
+.telltale{
+  width: 45%;
+  margin-left: 30px;
+}
+.contact-section form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.contact-section label,
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+.contact-head{
+  text-align: center;
+  color: #4d4d4d;
+  padding: 20px;
+  font-size: 30px;
+  font-family: Verdana;
+}
+.contact-section input[type="submit"] {
+  display: block; /* Makes the submit button a block-level element */
+  width: 50%; /* Allows you to set your own width or keep the default */
+  margin: 0 auto; /* Auto margins on both sides center the block */
+  padding: 12px 20px;
+  background-color: #4d4d4d; /* Darker grey background */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-section input[type="submit"]:hover {
+  background-color: #6B7677; /* A darker shade for hover effect */
+}
+
+.glow {
+  box-shadow: 0 0 8px #cccccc; /* Subtle glow effect */
+}
